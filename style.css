@@ -1,0 +1,133 @@
+/* * {
+    border: 1px solid black;
+} */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    min-height: 100vh;
+}
+
+.main {
+    background-color: #f0f2f5;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.section-1 {
+    /* display: grid; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+.logo>h1 {
+    font-size: 60px;
+    color: #1877f2;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: -150px;
+
+}
+
+.caption>h2 {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: -10px;
+
+}
+.login-form-newpage {
+    margin-right: 100px;
+}
+
+.login-form {
+    background-color: white;
+    border-radius: 8px;
+    width: 396px;
+    height: 350px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 10%);
+    
+}
+.login-form input {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    margin-top: 15px;
+    border: 1px solid #dddfe2;
+}
+
+#login {
+    background-color: #1877f2;
+    width: 370px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+#create-new-account {
+    background-color: #42b72a;
+    width: 200px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.resetpassword {
+    margin-top: 20px;
+   
+}
+
+.resetpassword a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.create-business-page {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.create-business-page a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+
+/* footer style section */
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.language-selector {
+    list-style-type: none;
+}
+
+.language-selector>li {
+    display: inline-block;
+    padding: 10px;
+}
